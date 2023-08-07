@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <!-- style css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img,
+    .gallery video {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover,
+    .gallery video:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <!--header section start -->
+  <header>
+    <!-- Logo and branding elements -->
+    <div class="logo">
+      <img src="images/heart.png" alt="Save Namibia's Seals">
+    </div>
+    <div class="logoname"><a href="index.html">Child Hearts Foundation</a></div>
+    <!-- Navigation menu -->
+    <nav class="navbar">
+      <div class="navdiv">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="Form.html">Join Form</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!--header section end -->
+  <!-- gallery section start -->
+  <div class="gallery">
+    <img src="images/img-1.png" alt="Image 1">
+    <img src="images/img-2.png" alt="Image 2">
+    <img src="images/img-3.png" alt="Image 3">
+    <img src="images/img-4.png" alt="Image 4">
+    <img src="images/img-5.png" alt="Image 5">
+    <img src="images/img-6.png" alt="Image 6">
+    <img src="images/img-7.png" alt="Image 7">
+    <img src="images/img-8.png" alt="Image 8">
+    <video width="320" height="240" controls>
+      <source src="images/eat.mp4" type="video/mp4">
+    </video>
+    <video width="320" height="240" controls>
+      <source src="images/eat.mp4" type="video/mp4">
+    </video>
+    <video width="320" height="240" controls>
+      <source src="images/eat.mp4" type="video/mp4">
+    </video>
+    <video width="320" height="240" controls>
+      <source src="images/eat.mp4" type="video/mp4">
+    </video>
+    <!-- Add more images and videos here -->
+  </div>
+  <!-- gallery section end -->
+
+  <!-- footer section end -->
+  <!-- copyright section start -->
+  <div class="copyright_section">
+    <div class="container">
+      <p class="copyright_text">2023 All Rights Reserved. Design by <a href="https://html.design">Free HTML Templates</a></p>
+    </div>
+  </div>
+  <!-- copyright section end -->
+
+
+</body>
+</html>
